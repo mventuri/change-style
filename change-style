@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>You can Change Style</title>
+
+</head>
+<body>
+<p id="tc">Show My True Colors!</p>
+<button type="button" onclick="TrueColors()">Do It!</button>
+
+
+<script>
+function TrueColors(){
+var x = document.getElementById('tc');
+x.style.fontSize = "25px";
+x.style.color = "red";
+}
+</script>
+</body>
+</html>
